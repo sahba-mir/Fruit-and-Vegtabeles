@@ -1,0 +1,32 @@
+.yellow-text{
+    color: rgb(240, 198, 13);
+}
+.y-background{
+    background-color: rgb(240, 198, 13);
+}
+.green-text{
+  color:  rgba(10, 73, 10, 1);
+}
+.green-background{
+    background-color: rgba(10, 73, 10, 1);
+}
+.white_text{
+    color: white;
+}
+
+.card-border{
+    border: 2px solid white;
+}
+.border{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.pink{
+    background-color: rgba(239, 23, 75, 1);
+}
+.yellow{
+    background-color:rgba(252, 198, 1, 1) ;
+}
+.green{
+    background-color: rgba(50, 118, 19, 1);
+}
