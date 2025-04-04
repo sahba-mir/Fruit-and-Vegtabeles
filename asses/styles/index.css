@@ -4,6 +4,12 @@
     src: url("/asses/fonts/Kadwa-Regular.ttf");
 }
 
+:root{
+    --green-coolor:rgba(10, 73, 10, 1);
+    --yellow-color: rgba(255, 193, 7, 1);
+    --white-color: white;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -20,15 +26,11 @@
 
 .header{
     height: 500px;
-   
-    background-color: rgba(255, 193, 7, 1);
-
-    
-
+    background-color: var(--yellow-color);
 }
 
 .nav{
-    background-color: rgba(10, 73, 10, 1);
+    background-color: var(--green-coolor);
     align-items: center;
     width:100% ;
     height: 15%;
@@ -38,7 +40,7 @@
 }
 
 .arm{
-    color: white;
+    color: var(--white-color);
     font-size: 20px;
     padding-left: 50px;
 }
@@ -50,7 +52,7 @@
 
 }
 .list-item{
-    color: white;
+    color: var(--white-color);
     font-weight: lighter;
     font-size: 13px;
 
@@ -69,7 +71,7 @@
 
 input{
     border: 1px solid rgb(253, 248, 248);
-    background-color: rgba(10, 73, 10, 1)  ;
+    background-color: var(--green-coolor) ;
     width: 200px;
     height: 30px;
     color: rgba(255, 255, 255, 0.425);
@@ -78,8 +80,8 @@ input{
 select{
     width: 130px;
     height: 30px;
-    background-color:  rgba(10, 73, 10, 1) ;
-    border: 1px solid white;
+    background-color: var(--green-coolor) ;
+    border: 1px solid var(--white-color);
     color: rgba(255, 255, 255, 0.425);
     text-align: center;
 }
@@ -92,7 +94,7 @@ select{
 }
 .nav-icon a{
     text-decoration: none;
-    color: white;
+    color: var(--white-color);
     font-size: 10px;
     display: block;
     padding: 0 10px;
@@ -123,17 +125,17 @@ select{
     text-align: center;
     border-radius: 50px;
     background-color: rgba(180, 200, 177, 1);
-    color: rgba(10, 73, 10, 1);
+    color: var(--green-coolor);
 }
 
 .h-text{
-    color: rgba(10, 73, 10, 1);
+    color: var(--green-coolor);
     font-size: 50px;
     line-height: 70px;
     margin-bottom: 10px;
 }
 .big-text{
-    color: rgba(10, 73, 10, 1);
+    color: var(--green-coolor);
     margin-bottom: 15px;
 }
 
@@ -142,7 +144,7 @@ select{
     height: 10px;
     background-color: rgba(180, 200, 177, 1) ;
     text-decoration: none;
-    color:rgba(10, 73, 10, 1);
+    color:var(--green-coolor);
     padding: 0px 30px 0px 30px;
     border-radius: 10px;
 
@@ -179,11 +181,11 @@ select{
 }
 .categories h1{
     text-align: left;
-    color:rgba(10, 73, 10, 1);
+    color:var(--green-coolor);
 }
 .btn-2{
 
-    background-color:rgba(255, 193, 7, 1) ;
+    background-color:var(--yellow-color) ;
     text-decoration: none;
     position: absolute;
     top: 25px;
@@ -192,7 +194,7 @@ select{
     font-size: 15px;
     border-radius: 10px;
     border: none;
-    color:rgba(10, 73, 10, 1) ;
+    color:var(--green-coolor);
     
 }
 
@@ -281,21 +283,21 @@ select{
 
 }
 .card-text h4{
-    color:rgba(255, 193, 7, 1) ;
+    color:var(--yellow-color);
 }
 
 .card-text p{
     font-size: 10px;
-    color: white;
+    color:var(--white-color);
 }
 
 .card-text a {
     font-size:10px ;
     text-decoration: none;
-    color: rgba(10, 73, 10, 1);
+    color: var(--green-coolor);
     width: 100px;
     padding: 0 30px;
-    background-color: rgba(255, 193, 7, 1);
+    background-color: var(--yellow-color);
     border-radius: 5px;
 }
 
@@ -638,7 +640,7 @@ b{
 }
 
 .btn-container{
-    background-color:rgba(255, 193, 7, 1) ;
+    background-color:var(--yellow-color) ;
     text-decoration: none;
     padding: 0px 50px;
     font-size: 18px;
@@ -699,7 +701,7 @@ b{
 
 }
 .pic-card{
-    border: 1px solid rgba(10, 73, 10, 1);
+    border: 1px solid var(--green-coolor);
     border-radius: 5px;
     width: 230px;
     text-align: left;
@@ -707,12 +709,12 @@ b{
 
 }
 .pic-card h5{
-    color: rgba(10, 73, 10, 1);
+    color: var(--green-coolor);
 
 }
 
 .pic-card p{
-    color: rgba(10, 73, 10, 1);
+    color: var(--green-coolor);
     font-size: 10px;
     width: 70%;
 
@@ -737,7 +739,7 @@ b{
 }
 .profile-card h6{
     margin: 0;
-    color: rgba(10, 73, 10, 1);
+    color: var(--green-coolor);
 
 }
 
@@ -752,11 +754,11 @@ b{
     padding-bottom: 200px;
 }
 .blog-title h1{
-    color:rgba(10, 73, 10, 1) ;
+    color:var(--green-coolor) ;
 
 }
 .blog-title p{
-    color: rgba(10, 73, 10, 1);
+    color: var(--green-coolor);
     font-size: 10px;
     width: 450px;
     margin-bottom: 30px;
@@ -797,7 +799,7 @@ b{
 
 .blog-item h5{
     padding: 0 5px 0 10px;
-    color:rgba(10, 73, 10, 1) ;
+    color:var(--green-coolor);
 
 
 }
@@ -805,14 +807,14 @@ b{
 .blog-item p{
     font-size: 12px;
     padding: 0 5px 0 10px;
-    color:rgba(10, 73, 10, 1) ;
+    color:var(--green-coolor);
 
 
 }
 .blog-item button {
     padding: 0 5px 0 10px;
     border: none;
-    background-color:rgba(255, 193, 7, 1) ;
+    background-color:var(--yellow-color);
     padding: 0 50px;
     font-size: 15px;
     border-radius: 5px;
@@ -822,12 +824,12 @@ b{
 }
 .blog-item button a{
     text-decoration: none;
-    color:rgba(10, 73, 10, 1) ;
+    color:var(--green-coolor) ;
 }
 
 .footer{
 
-    background-color:rgba(10, 73, 10, 1) ;
+    background-color:var(--green-coolor) ;
     display: flex;
     height: 600px;
     position: relative;
@@ -857,7 +859,7 @@ b{
 }
 
 .foodsmart h5{
-    color:rgba(255, 193, 7, 1) ;
+    color:var(--yellow-color);
 
 }
 
@@ -911,7 +913,7 @@ b{
 }
 
 .submit{
-    background-color:rgba(255, 193, 7, 1) ;
+    background-color:var(--yellow-color) ;
     color: black;
 }
 
